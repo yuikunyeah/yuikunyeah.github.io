@@ -1,0 +1,18 @@
+# yuikunyeah.github.io
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta charset="utf-8">
+    <title>Progate</title>
+  </head>
+  <body>
+    <h1 class="title"> yuikunyeah </h1>
+    <p>凄腕のプログラマーを目指して取り組んでいる小学生です。
+        <br>
+        毎日パソコンを開く
+        <br>
+        mac book pro　が欲しい～！！
+    </p>
+  </body>
+</html>
