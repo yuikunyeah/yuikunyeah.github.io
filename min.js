@@ -1,5 +1,5 @@
 
-$(finction(){
+$(function(){
   $(".btn-gnavi").on("click", function(){
 //メニューの位置
   var rightVal = 0;
