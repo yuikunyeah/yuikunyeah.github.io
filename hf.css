@@ -47,7 +47,7 @@ border-left: solid #000000;
 h4{
 border: solid #000000;
 }
-＃wrapper nav{
+＃global-nav{
 position: fixed;
   right: -35%;
   width: 35%;
