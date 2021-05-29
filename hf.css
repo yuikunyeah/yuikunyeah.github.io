@@ -34,7 +34,8 @@ background-color: #bbbbbb;
 }
 h2{
 border: double #7fffd4;
-padding: 3px;  
+padding: 10px; 
+border-radius: 5px;  
 }
 h3{
 padding-bottom: 2px;
