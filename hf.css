@@ -32,3 +32,17 @@ a{
 body{
 background-color: #bbbbbb;
 }
+h2{
+border: double #7fffd4;
+padding: 3px;  
+}
+h3{
+padding-bottom: 2px;
+padding-left: 5px;
+border-left: solid #000000;
+  border-bottom: solid #008080;
+}
+h4{
+border: solid #000000;
+}
+
