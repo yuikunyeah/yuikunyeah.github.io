@@ -47,6 +47,7 @@ h4{
 border: solid #000000;
 }
 .pagelist{
+float: center;  
 background-color: #bbbbbb;
 border: solid #dddddd;
 border-width: 3px;  
