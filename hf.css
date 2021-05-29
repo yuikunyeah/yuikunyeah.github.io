@@ -47,11 +47,10 @@ border-left: solid #000000;
 h4{
 border: solid #000000;
 }
-.pagelist{
-float: center;  
-background-color: #bbbbbb;
-border: solid #dddddd;
-border-width: 3px;  
-padding: 10px;
+＃wrapper nav{
+position: fixed;
+  right: -35%;
+  width: 35%;
 }
+
 
