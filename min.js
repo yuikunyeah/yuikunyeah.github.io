@@ -8,7 +8,7 @@ $(function(){
     rightval = -30;
     //クラスを消す
     $(this).removeClass("open");
-    else{//閉じている
+  }else{//閉じている
     //クラス生成
     $(this).addClass("open");
     }
