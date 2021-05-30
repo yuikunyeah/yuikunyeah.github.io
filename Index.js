@@ -1,4 +1,4 @@
-function menu {
+function menu() {
  const clicked = 0;	
  const rightEd = 0;
 	$('#btn-gnavi').on('click', function(){
