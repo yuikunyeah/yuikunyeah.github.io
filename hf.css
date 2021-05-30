@@ -47,7 +47,7 @@ border-left: solid #000000;
 h4{
 border: solid #000000;
 }
-#menu nav{
+#wrapper nav{
 position: fixed;
   top: 0;
   height: 100%;
@@ -59,14 +59,14 @@ position: fixed;
   box-sizing: border-box;
   z-index: 2;
 }
-#menu nav ul li{
+#wrapper nav ul li{
 padding: 20px 28px;
 }
-#menu nav ul li a{
+#wrapper nav ul li a{
 text-decoration: none;
 color: #202020;  
 }
-#menu .btn-gnavi{
+#wrapper .btn-gnavi{
 position: fixed;
   top: 20px;
   right: 2%;
@@ -78,7 +78,7 @@ position: fixed;
     -webkit-transition: all 400ms;
     transition: all 400ms
 }
-#menu .btm-navi span{
+#wrapper .btn-navi span{
 position: absolute;
 width: 10%;
   height: 2%;
