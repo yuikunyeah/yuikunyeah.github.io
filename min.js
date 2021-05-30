@@ -17,4 +17,4 @@ $(function(){
 			right: rightVal
 		}, 200);
 	});
-})
+});
