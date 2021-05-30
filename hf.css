@@ -127,7 +127,8 @@ width: 10%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden
+    overflow: hidden;
+  background-color: #000000;
 }
 
 #wrapper .contents section p {
