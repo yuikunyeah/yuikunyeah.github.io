@@ -21,7 +21,7 @@
     color: #ddd
 }
 
-#wrapper .btn-gnavi {
+#wrapper #btn-gnavi {
     position: fixed;
     top: 0px;
     right: 20px;
@@ -34,7 +34,7 @@
     transition: all 400ms
 }
 
-#wrapper .btn-gnavi span {
+#wrapper #btn-gnavi span {
     position: absolute;
     width: 30px;
     height: 4px;
@@ -44,34 +44,34 @@
     transition: all 400ms
 }
 
-#wrapper .btn-gnavi span:nth-child(1) {
+#wrapper #btn-gnavi span:nth-child(1) {
     top: 0
 }
 
-#wrapper .btn-gnavi span:nth-child(2) {
+#wrapper #btn-gnavi span:nth-child(2) {
     top: 10px
 }
 
-#wrapper .btn-gnavi span:nth-child(3) {
+#wrapper #btn-gnavi span:nth-child(3) {
     top: 20px
 }
 
-#wrapper .btn-gnavi.open {
+#wrapper #btn-gnavi.open {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg)
 }
 
-#wrapper .btn-gnavi.open span {
+#wrapper #btn-gnavi.open span {
     background: #fff
 }
 
-#wrapper .btn-gnavi.open span:nth-child(1) {
+#wrapper #btn-gnavi.open span:nth-child(1) {
     width: 24px;
     -webkit-transform: translate(-7px,17px) rotate(45deg);
     transform: translate(-7px,17px) rotate(45deg)
 }
 
-#wrapper .btn-gnavi.open span:nth-child(3) {
+#wrapper #btn-gnavi.open span:nth-child(3) {
     width: 24px;
     -webkit-transform: translate(-7px,-17px) rotate(-45deg);
     transform: translate(-7px,-17px) rotate(-45deg)
