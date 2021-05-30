@@ -1,5 +1,5 @@
 
-function gate(){
+$(function(){
   $(".btn-gnavi").on("click", function(){
 //メニューの位置
   var rightVal = 0;
@@ -16,4 +16,4 @@ $("#grobal-navi").stop().animate({
   right: rightVal
 },200);
   });
-};
+});
