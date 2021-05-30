@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="href="https://cdn2.scratch.mit.edu/get_image/user/59800751_90x90.png"">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="hf.css">
+    <title>1.if判定</title>
+  </head>
+  <body>
+    <div id="wrapper">
+    <p class="btn-gnavi">
+    <span></span>
+    <span></span>
+    <span></span>
+    </p>
+    <nav id="global-navi">
+    <li><font size="5">このページの目次</font></li>
+    <li><a href="#infoif">ifとは？</a></li>
+      <li><a href="#code">例文</a></li>
+    <li><a href="#end">まとめ</a></li>
+    </ul>
+    </nav>
+    <div class="contents">
+    <div class="main">
+      <section id="section1">
+    <h2 id="title">iftest</h2>
+   今回はiftestをしていきたいと思います。<br>
+  こちらの記事と合わせて<a href="/index.js">こちらのコード</a>をお読みください。
+  <h4 class="infoif">ifとは？</h4>
+        結果を指定された方法に従って正誤を判定する「条件分岐式」です。なんのこっちゃ...と思いますよね。<br>
+        <h4 id="code">例文</h4>
+  次のコードを見てください。</br>
+      <div id="code">
+        <input type="submit" onclick="gate();">
+        /*これで関数の入口を作る（つまりボタンを押すと実行される）*/<br>
+        <<script>><br>
+        function gate(){<br>
+        //ダイアログで取得したものを変数に代入する
+        var value = prompt("1+1?")<br>
+        if(value==2){
+        //正解なら正解のアラートを出す
+        alert('正解です');
+        }else{
+        //違うなら
+        alert('不正解です');
+        }
+        }
+        <</script>>
+        </div>
+      ここで注意：aleat要素は'(シングルクォート)ですがprompt要素では"(ダブルクォーテーション)です。セミコロン[;]を必ずつけましょう。
+      <br>
+      この例文は、1+1=2という答えが返される（つまり返された値が2）ならtrue(正解"=")を返す、2以外ならfalse(不正解)を返します。
+      <br>実際に実装した<br>
+         <input type="submit" onclick="gate();">
+        <br>
+        <script>
+        function gate(){
+        //ダイアログで取得したものを変数に代入する
+        var value = prompt("1+1?")<br>
+        if(value==2){
+        //正解なら正解のアラートを出す
+        alert('正解です');
+        }else{
+        //違うなら
+        alert('不正解です');
+        }
+        }
+        </script>
+      <h3 id="end">まとめ</h3>
+      <div>
+      <ul>
+        <li>ifは条件を結果に従って分ける</li>
+        <li>入力した値からも判別でき、基本==,>= <= <>で比べることができる</li>
+        </ul>
+        </div>
+      いかがでしたでしょうか。これで今回の記事を終わります。
+      </secton>
+      </div>
+    </div>
+      </div>
+<script src="main.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
+        
+        
