@@ -2,8 +2,8 @@
 background: #000000;
   position: fixed;
   right: 0;
-  background-height: 100%;
-  background-width: 30%;
+  height: 100%;
+  width: 40%;
 }
 .menu ul{
 float: center;
