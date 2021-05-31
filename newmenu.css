@@ -1,1 +1,19 @@
-
+.menu{
+background: #000000;
+  position: fixed;
+  right: 0;
+  background-height: 100%;
+  background-width: 30%;
+}
+.menu ul{
+float: center;
+list-style: none;
+}
+.menu ul li{
+float: center;
+padding: 5%;
+}
+.menu ul font{
+color: #fff;
+  padding: 10%;
+}
