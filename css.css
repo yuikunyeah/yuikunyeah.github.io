@@ -1,3 +1,7 @@
+img{
+z-index: 1;
+}
+
 .main{
 background-color: #fff;
 width: 40%;
