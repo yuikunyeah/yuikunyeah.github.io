@@ -1,0 +1,77 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/css.css">
+        <link rel="stylesheet" href="/menu.css">
+        <script src="main.js"></script>
+        <!--shortcut icon追加-->
+        <title>switchについて</title>
+    </head>
+    <body>    
+        <div class="header">
+            <h4>目次</h4>
+            <ul>
+                <li><a href="#title">switchとは</a></li>
+                <li><a href="#code">例</a></li>
+                <li><a href="#sample">サンプル</a></li>
+            </ul>
+            <h4>ページリンク</h4>
+            <ul>
+                <li><a href="https://yuikunyeah.github.io">メインページ</a></li>
+            </ul>
+        </div>
+        <div class="main">                 
+        <h2 id="title">switchとは</h2>
+        例のコードを見てください(ファイル名:sample.js)<br>
+        <h3 id="code">例</h3>
+        <div class="code">
+         function gate(){<br>   
+        var sample = prompt("1~3を入力");<br>
+        switch(sample)//変数名{<br>
+          //もし答えが1なら<br>
+            case 1:<br>
+            alert('パート1です')<br>
+            break;<br>
+            //もし答えが2なら<br>
+            case 2:<br>
+            alert('パート2です')<br>
+            break;<br>
+            //もし答えが3なら<br>
+            case 3:<br>
+            alert('パート3です')<br>
+            break;<br>
+            default{ //1~3ではないなら<br>
+                alert('値を正確に入力してください');<br>
+            }<br>
+        }<br>
+        }
+        </div>
+        <br>実装版が下<br>
+        <h3 id="sample">サンプル</h3>
+        <input type="button" value="起動" onclick="gate();">
+        <script>
+              function gate(){
+        var sample = prompt("1~3を入力");
+        sample = Number(sample);
+        switch(sample){//変数名
+          //もし答えが1なら
+            case 1:
+            alert('パート1です')
+            break;
+            //もし答えが2なら
+            case 2:
+            alert('パート2です')
+            break;
+            //もし答えが3なら
+            case 3:
+            alert('パート3です')
+            break;
+            default: //1~3ではないなら
+                alert('値を正確に入力してください');
+            break;
+        }
+        }
+        </script>    
+        <p>つまりswitchはif文を簡易的に表し、変数の数値で結果を分ける</p>
+        </div></body></html>
