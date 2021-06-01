@@ -1,5 +1,6 @@
 function gate() {
 var time =  new Date();  
 var watch = watch++;
-("getTime").innerHTML = time;
+  var outTime;
+  outTime.innerHTML = "<span>time</span>";
 }
