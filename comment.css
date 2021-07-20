@@ -1,0 +1,10 @@
+.news{
+    background-color: #1dbe08;
+    color: #f7de8d;
+ padding: 10px;
+ border-radius: 5px;
+ border: 1px solid #008b8b;
+} 
+.title{
+    border-bottom: 1px solid #000000;
+}
