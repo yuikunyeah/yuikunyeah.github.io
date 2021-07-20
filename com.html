@@ -11,5 +11,20 @@
              <button class="rero" onclick="window.location.reload();">再読み込み</button>
         <h2 class="title">コメント付きサイト</h2>
         テストをしています。主な記事の下にコメント欄が来るようにしたいと思います。
+        <div class="comment_confirmation">
+ <p class="modal_title" >コメント</p>
+ <p class="post_content"><?= nl2br($post['text']) ?></p>
+ <form method="post" action="../comment/comment_add_done.php" enctype="multipart/form-data">
+ <textarea class="textarea form-control" placeholder="コメントを入力ください" name="text"></textarea>
+ <div class="comment_img">
+  <input type="file" name="image_name" class="comment_image" accept="image/*" multiple>
+ </div>
+   <input type="hidden" name="id" value="<?= $post['id'] ?>">
+   <div class="post_btn">
+   <button class="btn btn-outline-danger" type="submit" name="comment" value="comment">コメント</button>
+   <button class="btn btn-outline-primary modal_close" type="button">キャンセル</button>
+   </div>
+ </form>
+</div>
     </body>
 </html>
